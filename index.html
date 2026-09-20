@@ -28,14 +28,16 @@
 
     <!-- Componente model-viewer apontando para o seu arquivo GLB -->
     <model-viewer 
-        src="./3dExport-mob-1.glb" 
-        alt="Mesa de Cabeceira em 3D" 
-        auto-rotate 
-        camera-controls 
-        ar 
-        shadow-intensity="1" 
-        environment-image="neutral">
-    </model-viewer>
+    src="models/mesa-cabeceira.glb" 
+    alt="Mesa de Cabeceira Industrial" 
+    auto-rotate 
+    camera-controls 
+    ar 
+    shadow-intensity="1"
+    shadow-softness="1"
+    exposure="1.2"
+    environment-image="https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr">
+        </model-viewer>
 
     <!-- Script oficial do Google Model Viewer -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
